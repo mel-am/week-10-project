@@ -27,10 +27,10 @@ position: fixed;
   align-items: center;
   padding: 10px 30px;
 }
-/* #songWrapper .video {
+#songWrapper .video {
   display: flex;
   flex-direction: column;
-} */
+}
 nav{
     background-color: rgb(1, 8, 23);
     color: antiquewhite;
@@ -91,21 +91,40 @@ li a:hover {
   
 }
   .button-container {
-            position: absolute;
-            bottom: 10px; /* Adjust as needed */
-            width: 100%;
+            
+            bottom: 30px; 
+            width: 70vw;
             display: flex;
             justify-content: space-around;
+            align-content: flex-end;
+            padding-top: 700px;
+            padding-bottom: 300px;
+            padding-left: 350px;
+            padding-right: 70px;
+            margin: 10px;
         }
-        .btn {
-            padding: 10px 20px;
-            background: none;
-            border: 2px solid #fff;
-            color: #fff;
+button {
+  margin: 0px;          
+  padding: 10px 10px;
+            border: 2px solid #af0d0d;
+            color: #962d2d;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 10px;
             text-decoration: none;
         }
+
+button a {
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button a:hover {
+  color: rgb(171, 24, 149);
+  font-weight: 800;
+
+  padding: 0;
+}
 #intermission {
   color: rgb(241, 226, 255);
   background-color: rgb(9, 6, 6);
